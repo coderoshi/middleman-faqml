@@ -2,11 +2,15 @@
 
 Adds [FAQML](https://github.com/coderoshi/fml) (FAQ markup language) support to Middleman.
 
-In your `config.rb` file, add
+Add the gem
 
 ```
-require 'middleman-faqml'
+gem 'middleman-faqml'
+```
 
+Then your `config.rb` file, add
+
+```
 activate :faqml
 ```
 
